@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>Examples</title>
+<meta name="description" content="">
+<meta name="keywords" content="">
+<link href="" rel="stylesheet">
+<script type="text/javascript" src="./jsonp.js"></script>
+</head>
+<body>
+    
+
+    <script type="text/javascript">
+
+      jsonp('http://api.map.baidu.com/telematics/v3/weather',{location:'广州',output:'json',ak:'3p49MVra6urFRGOT9s8UBWr2'},function(data){
+	console.log(data)
+})
+    </script>
+</body>
+</html>
